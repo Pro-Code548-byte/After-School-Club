@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>After-School-Club (Community)</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap"
       rel="stylesheet"
     />
+
     <script>
       tailwind.config = {
         theme: {
@@ -24,196 +27,215 @@
         },
       };
     </script>
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="font-[Gowun_Batang]">
-    <div class="mx-auto px-4">
-      <!-- HEADER SECTION -->
+
+  <body class="font-gowun">
+    <div class="max-w-7xl mx-auto px-4">
+      <!-- HEADER -->
       <header>
-        <div>
-          <nav
-            class="bg-white w-full h-16 px-4 lg:px-4 md:px-16 flex items-center border-b-1 border-gray-300"
-          >
-            <ul class="gap-16 hidden md:flex">
-              <li><a href="#" class="font-semibold">Home</a></li>
-              <li><a href="#" class="font-semibold">Details</a></li>
-              <li><a href="#" class="font-semibold">News</a></li>
-              <li><a href="#" class="font-semibold">Contact</a></li>
-            </ul>
-            <p class="md:hidden font-semibold">Menu</p>
-          </nav>
-          <div
-            class="bg-[#f6f0e4] flex flex-col md:flex-row md:justify-between mx-4 my-4 h-22 md:h-12 gap-1 items-center px-4 rounded-md"
-          >
-            <h1 class="text-center md:text-start font-bold">
-              Announcements: Spring ASB Election is now live for voting!
-            </h1>
-            <a href="#" class="font-bold underline">Survey Here</a>
-          </div>
-          <div
-            class="flex flex-col items-center my-10 lg:gap-10 gap-4 md:gap-8"
-          >
-            <p class="text-sm md:text-md lg:text-lg font-semibold">
-              Committed to all student in need
-            </p>
-            <p class="md:text-6xl lg:text-7xl text-center text-4xl lg:w-9/10">
-              Lincoln High School Speech and Debate Club
-            </p>
-            <a
-              href="#"
-              class="font-semibold underline text-sm md:text-md lg:text-lg"
-              >Join us</a
-            >
-          </div>
+        <nav
+          class="bg-white w-full h-16 px-4 md:px-16 flex items-center border-b border-gray-300"
+        >
+          <ul class="gap-16 hidden md:flex">
+            <li><a href="#" class="font-semibold">Home</a></li>
+            <li><a href="#" class="font-semibold">Details</a></li>
+            <li><a href="#" class="font-semibold">News</a></li>
+            <li><a href="#" class="font-semibold">Contact</a></li>
+          </ul>
+
+          <p class="md:hidden font-semibold">Menu</p>
+        </nav>
+
+        <div
+          class="bg-[#f6f0e4] flex flex-col md:flex-row md:justify-between mx-4 my-4 items-center px-4 py-3 rounded-md"
+        >
+          <h1 class="text-center md:text-left font-bold">
+            Announcements: Spring ASB Election is now live for voting!
+          </h1>
+
+          <a href="#" class="font-bold underline">Survey Here</a>
         </div>
+
+        <div class="flex flex-col items-center my-10 gap-6">
+          <p class="text-sm md:text-lg font-semibold">
+            Committed to all student in need
+          </p>
+
+          <p class="text-4xl md:text-6xl lg:text-7xl text-center max-w-4xl">
+            Lincoln High School Speech and Debate Club
+          </p>
+
+          <a href="#" class="font-semibold underline"> Join us </a>
+        </div>
+
         <img
-          src="https://images.unsplash.com/photo-1580537659466-0a9bfa916a54?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://images.unsplash.com/photo-1580537659466-0a9bfa916a54"
           alt="library image"
-          class="w-full h-50 md:h-100 lg:h-150"
+          class="w-full h-64 md:h-96 lg:h-[500px] object-cover"
         />
       </header>
 
-      <!-- MAIN SECTION -->
+      <!-- MAIN -->
       <main>
-        <div class="my-20 flex flex-col items-center gap-20">
-          <h1 class="font-semibold lg:text-6xl md:text-4xl text-2xl">
+        <!-- WHAT WE DO -->
+        <div class="my-20 flex flex-col items-center gap-12">
+          <h1 class="font-semibold text-2xl md:text-4xl lg:text-6xl">
             What We Do
           </h1>
+
           <div class="flex flex-col items-center gap-6">
-            <p class="font-semibold lg:text-md md:text-sm text-xs">
-              Club Details:
-            </p>
-            <p
-              class="lg:text-2xl md:text-xl text-lg text-center md:w-9/10 lg:w-1/2"
-            >
+            <p class="font-semibold">Club Details:</p>
+
+            <p class="text-lg md:text-xl lg:text-2xl text-center max-w-2xl">
               Speech and Debate is where you'll learn to think critically, speak
               confidently, and engage in exciting competitions. Here's
               everything you need to know:
             </p>
           </div>
-          <div class="flex justify-center lg:gap-70 md:gap-8 gap-12 flex-wrap my-10">
-            <div class="flex flex-col md:gap-4 gap-8 items-center">
-              <p class="lg:text-md md:text-sm text-xs font-bold text-center">
-                What:
-              </p>
-              <p
-                class="text-center lg:text-3xl md:text-3xl text-xl font-semibold w-70"
-              >
+
+          <div class="flex flex-wrap justify-center gap-12 my-10">
+            <div class="flex flex-col gap-4 items-center text-center max-w-xs">
+              <p class="font-bold">What:</p>
+
+              <p class="text-xl md:text-2xl lg:text-3xl font-semibold">
                 Ready to find your voice?
               </p>
-              <p class="md:w-80 lg:text-lg md:text-md text-xs w-60 font-bold text-center">
+
+              <p class="font-bold">
                 This is a safe place to hone your skills with like-minded peers.
               </p>
             </div>
-            <div class="flex flex-col gap-4 items-center">
-              <p class="lg:text-md md:text-sm text-xs font-bold text-center">
-                Who:
-              </p>
-              <p
-                class="text-center lg:text-3xl md:text-3xl text-xl font-semibold w-70"
-              >
+
+            <div class="flex flex-col gap-4 items-center text-center max-w-xs">
+              <p class="font-bold">Who:</p>
+
+              <p class="text-xl md:text-2xl lg:text-3xl font-semibold">
                 All Lincoln High Students
               </p>
-              <p class="md:w-80 lg:text-lg md:text-md text-xs w-60 font-bold text-center">
+
+              <p class="font-bold">
                 Everyone, in any grade is welcome to join.
               </p>
             </div>
-            <div class="flex flex-col gap-4 items-center">
-              <p class="lg:text-md md:text-sm text-xs font-bold text-center">
-                When:
-              </p>
-              <p
-                class="text-center lg:text-3xl md:text-3xl text-xl font-semibold w-70"
-              >
+
+            <div class="flex flex-col gap-4 items-center text-center max-w-xs">
+              <p class="font-bold">When:</p>
+
+              <p class="text-xl md:text-2xl lg:text-3xl font-semibold">
                 Wednesday, 3:30pm-4:30pm
               </p>
-              <p class="md:w-80 lg:text-lg md:text-md text-xs w-60 font-bold text-center">
+
+              <p class="font-bold">
                 You will be out in time for the late night bus home.
               </p>
             </div>
-            <div class="flex flex-col gap-4 items-center">
-              <p class="lg:text-md md:text-sm text-xs font-bold text-center">
-                Where:
-              </p>
-              <p
-                class="text-center lg:text-3xl md:text-3xl text-xl font-semibold w-70"
-              >
+
+            <div class="flex flex-col gap-4 items-center text-center max-w-xs">
+              <p class="font-bold">Where:</p>
+
+              <p class="text-xl md:text-2xl lg:text-3xl font-semibold">
                 Room 204
               </p>
-              <p class="md:w-80 lg:text-lg md:text-md text-xs w-60 font-bold text-center">
+
+              <p class="font-bold">
                 We will meet in Mr. Smith's room. He's our teacher sponsor.
               </p>
             </div>
-        </div>
-        <div class="w-full lg:px-20 md:px-20 px-4">
-          <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="classroom" class="w-full h-50 md:h-100 lg:h-150">
-        </div>
-        <div class="w-full flex flex-col  ">
-          <h1 class="lg:text-7xl md:text-5xl text-4xl text-center w-9/10 md:w-full">The Latest News</h1>
-          <div class="flex flex-wrap py-10 justify-evenly border w-9/10 m-auto items-center rounded-lg mt-20 border-gray-300 gap-6 md:gap-0">
-            <img src="https://plus.unsplash.com/premium_photo-1705267936105-90b76568cb17?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="A man making a speech" class="lg:w-100 md:w-80 w-50 lg:h-60  md:h-60 h-30 object-cover rounded-md">
-            <div class="lg:w-120 md:w-50 w-40 gap-4 flex flex-col">
-              <p class="text-center font-semibold text-xs md:text-md">2025 Regional Results</p>
-              <p class="text-center font-semibold md:text-3xl text-lg">Lincoln Takes Home 1st place overall.</p>
-              <p class="text-center font-semibold md:text-md text-xs">The team took home a stunning win, claiming 3 of the top 5 spots! Big shouts out to Emily, Steve, Bryan and Lizzie.</p>
-            </div>
-          </div>
-          <div class="flex my-10 gap-10 flex-wrap p-20 items-center justify-center">
-            <div class="flex flex-col md:w-9/20 w-9/10 items-center gap-6 border border-gray-300 rounded-md py-10">
-              <p class="font-semibold md:text-lg text-xs">Upcoming event</p>
-              <p class="md:text-4xl text-lg text-center">6/11 Lunch Hour Pizza</p>
-              <img src="https://images.unsplash.com/photo-1604931920035-e6316baed0e3?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Lunch place" class="lg:w-80 md:w-40 w-40 lg:h-50 md:h-30 rounded-md">
-            </div>
-            <div class="flex flex-col md:w-9/20 items-center gap-3 border border-gray-300 rounded-md py-10 w-9/10">
-              <p class="font-semibold md:text-lg text-xs">Spotlight</p>
-              <img src="https://images.unsplash.com/photo-1623366302587-b38b1ddaefd9?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Portrait image" class="lg:w-45 md:w-30 w-20 rounded-full lg:h-45 md:h-30 h-20">
-              <p class="md:text-4xl text-lg text-center">Johnny S.</p>
-              <p class="text-center md:text-lg text-xs">Congrats Johnny on qualifying for Nationals!</p>
-            </div>
           </div>
         </div>
-        <div class="w-full flex flex-col lg:px-40 md:px-5 px-2 gap-8 flex-wrap">
-          <p class="lg:text-5xl md:text-5xl text-2xl">2025 Regional Results</p>
-          <p>Scoresheets are available for download below.</p>
-          <div class="flex lg:gap-8 md:gap-1 flex-wrap">
-            <div class="gap-4 flex flex-col flex-wrap ">
-              <p class="font-semibold text-md">Speech events</p>
-              <p class="text-xl md:text-lg px-10 border-l-1 border-gray-300 mb-3">Dramatic Interpretation (DI)</p>
-              <p class="text-xl px-10 md:text-lg border-l-1 border-gray-300 mb-3">Duo Interpretation (DUO)</p>
-              <p class="text-xl px-10 border-l-1 md:text-lg border-gray-300 mb-3">Poetry (POE)</p>
-              <p class="text-xl px-10 border-l-1 md:text-lg border-gray-300 mb-3">Humorous Interpretation (HI)</p>
-            </div>
-            <div class="gap-4 flex flex-col">
-              <p class="font-semibold text-md">Debate events</p>
-              <p class="text-xl px-10 border-l-1 md:text-lg border-gray-300 mb-3">Extemporaneous Debate (XDB)</p>
-              <p class="text-xl px-10 border-l-1 md:text-lg border-gray-300 mb-3">Lincoln-Douglas Debate (LD)</p>
+
+        <!-- IMAGE -->
+        <div class="w-full lg:px-20 md:px-10 px-4">
+          <img
+            src="https://images.unsplash.com/photo-1580582932707-520aed937b7b"
+            alt="classroom"
+            class="w-full h-64 md:h-96 lg:h-[500px] object-cover"
+          />
+        </div>
+
+        <!-- NEWS -->
+        <div class="flex flex-col items-center mt-20">
+          <h1 class="text-4xl md:text-5xl lg:text-7xl text-center">
+            The Latest News
+          </h1>
+
+          <div
+            class="flex flex-wrap py-10 justify-evenly border w-11/12 mx-auto items-center rounded-lg mt-20 border-gray-300 gap-6"
+          >
+            <img
+              src="https://plus.unsplash.com/premium_photo-1705267936105-90b76568cb17"
+              alt="speech"
+              class="lg:w-96 md:w-80 w-60 h-60 object-cover rounded-md"
+            />
+
+            <div class="max-w-md flex flex-col gap-4 text-center">
+              <p class="font-semibold text-sm">2025 Regional Results</p>
+
+              <p class="font-semibold text-lg md:text-3xl">
+                Lincoln Takes Home 1st place overall.
+              </p>
+
+              <p class="font-semibold text-sm md:text-base">
+                The team took home a stunning win, claiming 3 of the top 5
+                spots! Big shouts out to Emily, Steve, Bryan and Lizzie.
+              </p>
             </div>
           </div>
         </div>
-        <div class="w-full relative mb-0 mt-0">
-          <img src="https://images.unsplash.com/photo-1635424239131-32dc44986b56?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="class " class="w-full lg:h-90 md:h-70 h-50 relative object-cover">
-          <div class="absolute lg:bottom-50 md:bottom-30 bottom-10 w-full bg-[rgba(0, 0, 0, 0.5)] flex flex-col items-center justify-center">
-            <p class="text-white text-center lg:text-5xl md:text-4xl text-3xl font-bold">All voices are welcome here!</p>
-            <a href="#" class="text-white underline text-center flex justify-center lg:text-5xl md:text-4xl text-3xl">Join us</a>
+
+        <!-- CTA IMAGE -->
+        <div class="w-full relative mt-20">
+          <img
+            src="https://images.unsplash.com/photo-1635424239131-32dc44986b56"
+            class="w-full h-64 md:h-96 object-cover"
+          />
+
+          <div
+            class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center gap-4"
+          >
+            <p class="text-white text-3xl md:text-4xl lg:text-5xl font-bold">
+              All voices are welcome here!
+            </p>
+
+            <a href="#" class="text-white underline text-2xl md:text-3xl">
+              Join us
+            </a>
           </div>
         </div>
       </main>
-      <footer class="bg-gray-900 w-full mt-0 mb-0">
-        <div>
-          <img src="https://i.pinimg.com/736x/46/d9/74/46d974eba32aaf3485a15f29550f34b0.jpg" alt="facebook icon" class="w-8">
-          <img src="https://i.pinimg.com/736x/da/0b/e4/da0be4b7e25b3b666983de0f8800a62d.jpg" alt="instagram icon" class="w-8">
-          <img src="https://i.pinimg.com/1200x/25/74/35/257435115253d7c7fd42ac50af0a4ad7.jpg" alt="tiktok icon" class="w-8">
-        </div>
-        <div>
-          <div>
-            <p>Debate It. Don't Hate It.</p>
+
+      <!-- FOOTER -->
+      <footer class="bg-gray-400 text-white py-5 px-4">
+        <div
+          class="max-w-7xl mx-auto md:px-4 px-1 flex flex-col justify-between gap-15 md:text-center md:text-left"
+        >
+          <div class="flex gap-4">
+            <img
+              src="https://i.pinimg.com/736x/46/d9/74/46d974eba32aaf3485a15f29550f34b0.jpg"
+              class="w-5"
+            />
+            <img src="Instagram_Icon-removebg-preview.png" class="w-5" />
+            <img src="Tiktok_Icon-removebg-preview.png" class="w-5" />
           </div>
-          <div>
-            <p>hello@figma.com 1750 Candyland Lane, Portland, OR 97205 (646) 555-4567</p>
+
+          <div
+            class="flex md:items-center justify-between w-7/10 flex-wrap md:flex-nowrap"
+          >
+            <p class="md:text-xl text-md">Debate It. Don't Hate It.</p>
+
+            <p class="md:text-xl text-md mt-2 w-50">
+              hello@figma.com 1750 Candyland Lane, Portland, OR 97205 (646)
+              555-4567
+            </p>
           </div>
-        </div>
-        <div>
-          <p>Lincoln High School &copy; 2025 All Rights Reserved</p>
+
+          <div>
+            <p class="md:text-md text-xs">
+              Lincoln High School © 2025 All Rights Reserved
+            </p>
+          </div>
         </div>
       </footer>
     </div>
